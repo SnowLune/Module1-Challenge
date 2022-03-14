@@ -1,3 +1,4 @@
+/* Default all elements */
 * {
    box-sizing: border-box;
    padding: 0;
@@ -90,6 +91,7 @@ p {
    background-color: #2589bd;
 }
 
+/* 'benefit' section classes */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -97,6 +99,7 @@ p {
    color: #ffffff;
 }
 
+/* 'benefit' header should be centered and slightly up */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -104,6 +107,7 @@ p {
    text-align: center;
 }
 
+/* 'benefit' imgs should only be so wide */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -112,6 +116,7 @@ p {
    max-width: 150px;
 }
 
+/* main content items */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
